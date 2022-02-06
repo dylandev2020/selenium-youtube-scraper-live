@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
-YOUTUBE_TRENDING_URL = 'https://www.youtube.com/feed/trending'
+YOUTUBE_TRENDING_URL = 'https://www.youtube.com/feed/trending?gl=VN'
 VIDEO_DIV_TAG = 'ytd-video-renderer'
   
 def get_driver():
